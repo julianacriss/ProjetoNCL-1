@@ -25,8 +25,7 @@
       <port id="pInicio" component="lua"/>
 
 	  <media id="titulo" src="media/titulo.txt" descriptor="dTitulo">
-	 		<property name="fontSize" value="20">
-			</property>
+	 		<property name="fontSize" value="20"/>
 	  </media>
       <media id="img1" src="media/img1.jpg" descriptor="dImg1"/>
       <media id="img2" src="media/img2.jpg" descriptor="dImg2"/>
