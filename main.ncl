@@ -52,8 +52,7 @@
       
       <link xconnector="conn#onKeySelectionStopN">
 		<bind component="titulo" role="onSelection">
-			<bindParam name="keyCode" value="RED">
-			</bindParam>
+			<bindParam name="keyCode" value="RED"/>
 		</bind>
 		<bind component="img1" role="stop"/>
 		<bind component="img2" role="stop"/>
