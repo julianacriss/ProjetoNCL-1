@@ -27,10 +27,10 @@ local function sinal1()
           local xmlhandler = simpleTreeHandler()
           local xmlparser = xmlParser(xmlhandler)
           xmlparser:parse(content)                
-          if (xmlhandler.root['aui:HandGesture']._attr.gesture == 'hand_left') then
+          if (xmlhandler.root['aui:HandGesture']._attr.gesture == 'slap_left') then
             evt1.action = 'start'; event.post(evt1)
             evt1.action = 'stop' ; event.post(evt1)
-          elseif (xmlhandler.root['aui:HandGesture']._attr.gesture == 'hand_right') then
+          elseif (xmlhandler.root['aui:HandGesture']._attr.gesture == 'slap_right') then
             evt2.action = 'start'; event.post(evt2)
             evt2.action = 'stop' ; event.post(evt2)
           end
